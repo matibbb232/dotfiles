@@ -1,43 +1,15 @@
-# gruvbox
+set font                        "Hack 10"
+set default-bg                  "#f2e5bc" # bg
+set default-fg                  "#3c3836" # fg
+set render-loading              true
+set render-loading-bg           "#f2e5bc" # bg
+set render-loading-fg           "#3c3836" # fg
 
-#set font                        "Roboto Mono 10"
-set default-bg                  "#282828"
-set default-fg                  "#fbf1c7"
-
-set statusbar-bg                "#282828"
-set statusbar-fg                "#ebdbb2"
-
-set inputbar-bg                 "#282828"
-set inputbar-fg                 "#ebdbb2"
-
-set notification-error-bg       "#fb4934"
-set notification-error-fg       "#282828"
-
-set notification-warning-bg     "#d3869b"
-set notification-warning-fg     "#282828"
-
-set highlight-color             "#fabd2f"
-set highlight-active-color      "#fe8019"
-
-set completion-highlight-bg     "#3c3836"
-set completion-highlight-fg     "#fb4934"
-
-set completion-bg               "#282828"
-set completion-fg               "#ebdbb2"
-
-set notification-bg             "#282828"
-set notification-fg             "#ebdbb2"
-
-set recolor-lightcolor          "#282828"
-set recolor-darkcolor           "#fbf1c7"
-
-# Setting recolor-keep true will keep any color your pdf has.
-# If it is false, it'll just be black and white.
-#set recolor-keephue             "false"
-set recolor "true"
-
-# Rest of your configs go here:
-
+# Recolor book content's color
+set recolor-lightcolor          "#f2e5bc" # bg
+set recolor-darkcolor           "#3c3836" # fg
+set recolor                     "true"
+# set recolor-keephue             true      # keep original color
 set adjust-open width
 set pages-per-row 1
 set smooth-scroll true

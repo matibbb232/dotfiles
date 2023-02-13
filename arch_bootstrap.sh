@@ -9,7 +9,7 @@ pkg_install() {
 		aria2\
 		acpi\
 		acpid\
-		alsa-utlis\
+		alsa-utils\
 		autoconf\
 		automake\
 		base-devel\
@@ -21,7 +21,7 @@ pkg_install() {
 		flex\
 		go\
 		gimp\
-		graphicsmagic\
+		graphicsmagick\
 		grub\
 		git\
 		github-cli\
@@ -41,7 +41,7 @@ pkg_install() {
 		pkgconf\
 		python-pywal\
 		pcmanfm\
-		pcieutlis\
+		pciutils\
 		pulseaudio\
 		pamixer\
 		pulsemixer\
@@ -55,7 +55,7 @@ pkg_install() {
 		ttf-linux-libertine-g\
 		traceroute\
 		xclip\
-		xf68-input-libinput\
+		xf86-input-libinput\
 		wget\
 		xorg-xrdb\
 		xorg-setxkbmap\
@@ -66,8 +66,8 @@ pkg_install() {
 		zathura-ps\
 		zsh\
 		zsh-syntax-highlighting\
-		zsh-autosuggestions\
+		zsh-autosuggestions
 }
 
-system_update
+# system_update
 pkg_install

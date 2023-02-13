@@ -69,5 +69,19 @@ pkg_install() {
 		zsh-autosuggestions
 }
 
+aur_helper_install() {
+	git clone https://aur.archlinux.org/yay.git
+	cd yay
+	makepgk -si
+}
+aur_install() {
+	yay -S \
+	gtk-theme-arc-gruvbox-git\
+	brave-bin\
+	captaine-cursors\
+	telegram-bin\
+	discord-bin
+}
+
 # system_update
-pkg_install
+# pkg_install

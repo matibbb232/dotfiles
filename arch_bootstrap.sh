@@ -83,5 +83,33 @@ aur_install() {
 	discord-bin
 }
 
+git_install() {
+	# copying dwm scripts from the dotfiles
+	cp -r .dwm $HOME
+
+
+	# TODO: add setting up config files
+
+	cd $HOME
+	mkdir .programs && cd .programs
+
+	# Install st
+	git clone https://github.com/matibbb232/st
+	cd st
+	sudo make clean install
+
+	# Install dmenu
+	git clone https://github.com/matibbb232/dmenu
+	cd dmenu
+	sudo make clean install
+
+	# Install dwm
+	git clone https://github.com/matibbb232/dwm
+	cd dwm
+	sudo make clean install
+
+	cd dotfiles
+}
+
 # system_update
 # pkg_install

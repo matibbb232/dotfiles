@@ -72,15 +72,15 @@ pkg_install() {
 aur_helper_install() {
 	git clone https://aur.archlinux.org/yay.git
 	cd yay
-	makepgk -si
+	makepkg -si
 }
 aur_install() {
 	yay -S \
 	gtk-theme-arc-gruvbox-git\
 	brave-bin\
-	captaine-cursors\
-	telegram-bin\
-	discord-bin
+	capitaine-cursors\
+	telegram-desktop\
+	discord
 }
 
 git_install() {
@@ -111,5 +111,7 @@ git_install() {
 	cd dotfiles
 }
 
-# system_update
-# pkg_install
+system_update
+pkg_install
+aur_helper_install
+aur_install

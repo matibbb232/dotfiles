@@ -29,6 +29,7 @@ pkg_install() {
 		iputils\
 		lxappearance\
 		lxrandr\
+		lf\
 		maim\
 		make\
 		man-db\

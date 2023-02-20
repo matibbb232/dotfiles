@@ -43,6 +43,7 @@ pkg_install() {
 		python-pywal\
 		pcmanfm\
 		pciutils\
+		picom\
 		pulseaudio\
 		pamixer\
 		pulsemixer\

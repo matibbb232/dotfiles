@@ -61,6 +61,7 @@ pkg_install() {
 		ttf-linux-libertine\
 		ttf-linux-libertine-g\
 		traceroute\
+		unclutter\
 		xclip\
 		xf86-input-libinput\
 		wget\

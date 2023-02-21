@@ -15,6 +15,7 @@ pkg_install() {
 		base-devel\
 		brightnessctl\
 		debugedit\
+		dunts\
 		fakeroot\
 		firefox\
 		feh\
@@ -33,6 +34,10 @@ pkg_install() {
 		maim\
 		make\
 		man-db\
+		mpv\
+		mpd\
+		mpc\
+		ncmpcpp\
 		neofetch\
 		neovim\
 		networkmanager\
@@ -69,6 +74,7 @@ pkg_install() {
 		zsh\
 		zsh-syntax-highlighting\
 		zsh-autosuggestions
+		
 }
 
 aur_helper_install() {
